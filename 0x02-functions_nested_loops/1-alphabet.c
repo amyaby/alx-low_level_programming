@@ -4,7 +4,7 @@
  * main - entry function
  * Description:program that prints the alphabet, in lowercase
  *, followed by a new line.
- * Return:0
+ * Return:void
  */
 
 void print_alphabet(void)
