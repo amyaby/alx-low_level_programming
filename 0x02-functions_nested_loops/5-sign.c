@@ -5,7 +5,6 @@
  * @n: the number that will be checked
  * Return: 1 if number > 0 or 0 if number = 0 or -1 if number < 0
 */
- 
 int print_sign(int n)
 	int print_sign(int n)
 {
