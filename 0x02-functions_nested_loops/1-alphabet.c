@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * main - entry function
- * Description:program that prints the alphabet, in lowercase
- *, followed by a new line.
- * Return:void
- */
+*  print_alphabet - print all alphabet and end with a new line
+* Return: void
+*/
 
 void print_alphabet(void)
 {
