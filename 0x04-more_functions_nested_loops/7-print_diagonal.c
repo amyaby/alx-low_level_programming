@@ -9,7 +9,7 @@ void print_diagonal(int n)
 	if (n >= 0)
 	{
 		_putchar(' ');
-_puchar('92');
+_puchar('\\');
 	} else
 	{
 _putchar('\n');
