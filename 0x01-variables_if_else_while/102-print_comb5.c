@@ -17,11 +17,11 @@ for (f = 0; f < 100; f++)
 {
 if (r < f)
 {
-putchar((r/10)+48);
-putchar((r%10)+48);
+putchar((r / 10) + 48);
+putchar((r % 10) + 48);
 putchar(' ');
-putchar((f/10)+48);
-putchar((f%10)+48);
+putchar((f / 10) + 48);
+putchar((f % 10) + 48);
 if(r != 98 || f != 99)
 {
 putchar(',');
