@@ -4,7 +4,7 @@
  * main-Entry point
  * Description:Aprogram that prints
  * combinations of two two-digit numbers.
- * return: Always 0
+ * return: Always 0 (success)
  */
 
 int main(void)
