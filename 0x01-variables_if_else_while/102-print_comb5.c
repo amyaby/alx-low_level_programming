@@ -11,9 +11,9 @@ int main()
 {
 int r, f;
 
-for (r = 0; r <= 100; r++)
+for (r = 0; r < 100; r++)
 {
-for (f = 0; f <= 100; f++)
+for (f = 0; f < 100; f++)
 {
 if (r < f)
 {
