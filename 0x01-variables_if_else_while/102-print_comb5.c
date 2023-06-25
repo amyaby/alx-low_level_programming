@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main-Entry point 
- * Description:Aprogram that prints 
+ * main-Entry point
+ * Description:Aprogram that prints
  * combinations of two two-digit numbers.
  * return: Always 0
  */
 
-int main()
+int main(void)
 {
 int r, f;
 
@@ -22,14 +22,13 @@ putchar((r % 10) + 48);
 putchar(' ');
 putchar((f / 10) + 48);
 putchar((f % 10) + 48);
-if(r != 98 || f != 99)
+if (r != 98 || f != 99)
 {
 putchar(',');
-putchar(' ');
-                }
+putchar(' ');             }
 }
 }
 }
 putchar('\n');
-return 0;
+return (0);
 }
