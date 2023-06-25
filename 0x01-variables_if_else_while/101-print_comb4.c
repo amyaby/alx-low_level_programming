@@ -16,7 +16,7 @@ for (b = '1'; b <= '9'; b++)
 {
 for (c = '0'; c <= '9'; c++)
 {
-if (c > b ; b > a)
+if (c > b && b > a)
 {
 putchar(a);
 putchar(b);
@@ -28,6 +28,7 @@ putchar(' ');
 }
 }
 
+}
 }
 }
 putchar('\n');
