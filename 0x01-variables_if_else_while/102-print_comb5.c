@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main-Entry point
- * Description:Aprogram that prints
+ * main - entry function
+ * Description: program that prints all possible
  * combinations of two two-digit numbers.
- * return: Always 0 (success)
+ * Return: 0 if the program runs without any errors
  */
 
 int main(void)
