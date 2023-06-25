@@ -1,7 +1,10 @@
 #include <stdio.h>
+
 /**
- * main-entry point
- * Return : Always 0 (success)
+ * main - entry function
+ * Description: program that prints all possible
+ * different combinations of two digits
+ * Return: 0 if the program runs without any errors
 */
 
 int main(void)
@@ -25,5 +28,5 @@ putchar(' ');
 
 }
 putchar('\n');
-return 0;
+return (0);
 }
