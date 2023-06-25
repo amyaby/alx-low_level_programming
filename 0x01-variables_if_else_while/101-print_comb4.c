@@ -8,11 +8,11 @@
 int main(void)
 {
 int a, b, c;
-for (a = '0'; a <= '9'; a++)
+for (a = '0'; a < '8'; a++)
 {
-for (b = '1'; b <= '9'; b++)
+for (b = '1'; b < '8'; b++)
 {
-for (c = '2'; c <= '9'; c++)
+for (c = '2'; c < '8'; c++)
 {
 if (c > b && b > a)
 {
