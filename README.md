@@ -1,1 +1,1 @@
-MY JOURNEY WITH C LANGUAGE HAVE JUST STARTED
+more pointers -arrays-strings
