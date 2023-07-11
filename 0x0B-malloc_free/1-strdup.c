@@ -1,12 +1,12 @@
-#include "main.h"
 #include <stdlib.h>
-
+#include "main.h"
 /**
  * _strdup - returns a pointer to a newly allocated space in memory.
- * @str: string to copy
- *
- * Return:  NUll if str is NULL or failed to allocate memory
+ * @str: string.
+ * pointer to the duplicated string
+ * Return: NUll if str is NULL or failed to allocate memory,
  */
+
 char *_strdup(char *str)
 {
     char *strout;
@@ -23,7 +23,7 @@ char *_strdup(char *str)
     if (strout == NULL)
         return (NULL);
 
-    for (y = 0; y <= x; y++)
+    for (x = 0; y <= x; y++)
         strout[y] = str[y];
 
     return (strout);
