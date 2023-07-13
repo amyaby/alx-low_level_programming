@@ -10,15 +10,14 @@
 *Return:a pointer to the allocated memory.
 */
 
-int i;
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-char *ptr ;
-    if (nmemb == 0 || size == 0)
-    return (NULL);
-    ptr=malloc(nmemb*sizeof(unsigned int));
-    if (!ptr)
-    return (NULL);
+char *ptr;
+if (nmemb == 0 || size == 0)
+return (NULL);
+ptr = malloc(nmemb * sizeof(unsigned int));
+if (!ptr)
+return (NULL);
 memset(ptr, 0, nmemb * size);
 return (ptr);
 
