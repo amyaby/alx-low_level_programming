@@ -1,1 +1,1 @@
-more pointers -arrays-strings
+0x0E-structures_typedef
