@@ -2,7 +2,7 @@
 
 /**
  * listint_len - returns the number of nodes
- * @h: the header 
+ * @h: the header
  *
  * Return: number of nodes
  */
