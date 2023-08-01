@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "lists.h"
-  
+
  /**
  * print_listint - printing the data of a linked list
  * @h: the head pointer
@@ -11,7 +11,7 @@
 size_t print_listint(const listint_t *h)
 {
 const listint_t *p = h;
-size_t count = 0; 
+size_t count = 0;
 if (p == NULL)
 {
 printf("linked list is empty\n");
