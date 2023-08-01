@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
- * sum_listint - function that returns the sum of all the data (n) 
- * @head: pointer 
+ * sum_listint - function that returns the sum of all the data (n)
+ * @head: pointer
  *
  * Return:  sum of all the data (n) of a linked list or 0 if list is empty.
  */
