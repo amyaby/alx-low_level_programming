@@ -1,25 +1,22 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * flip_bits - flip bits to convert one number to another number
- * @n: first number
- * @m: second number to convert to
- * Return: number of bits that was needed to flip
+ * flip_bits - func that returns no. of bits needed to flip to get,
+ * from one number to another.
+ * @n: unsigned long integer.
+ * @m: unsigned long integer.
+ * Return: number of bits
  */
+
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	unsigned long int d;
-	int c;
+	int count = 0;
+	unsigned long int XOR_nm = n ^ m;
 
-	d = n ^ m;
-	co = 0;
-
-	while (d)
+	while (XOR_nm)
 	{
-		c++;
-		d &= (d - 1);
+		XOR_nm = XOR_nm & (XOR_nm - 1);
+		count++;
 	}
-
-	return (c);
+	return (count);
 }
